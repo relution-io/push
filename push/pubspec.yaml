@@ -16,7 +16,10 @@ dependencies:
   # Federated package dependencies
   push_platform_interface: ^0.6.0
   push_android: ^0.6.0
-  #push_ios: ^0.5.1
+  push_ios:
+    git:
+      url: https://github.com/danielkono/push.git
+      ref: feature/REL-4663_add_macos_support_TEMP_FORK
   # End of federated package dependencies
 
   # When developing push locally, make sure
@@ -31,8 +34,8 @@ dependencies:
     #path: "../push_platform_interface"
   #push_android:
     #path: "../push_android"
-  push_ios:
-    path: "../push_ios"
+  #push_ios:
+    #path: "../push_ios"
 #    push_macos:
 #      path: "../push_macos"
 # End of local development dependencies
