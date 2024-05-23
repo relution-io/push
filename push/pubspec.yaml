@@ -18,7 +18,7 @@ dependencies:
   push_android: ^0.6.0
   push_ios:
     git:
-      url: https://github.com/danielkono/push.git
+      url: https://github.com/relution-io/push.git
       ref: feature/REL-4663_add_macos_support_TEMP_FORK
       path: push_ios/
   # End of federated package dependencies
